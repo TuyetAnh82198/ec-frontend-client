@@ -1,0 +1,127 @@
+/* mobile */
+@media screen and (max-width: 430.99px) {
+  .mobileImg {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 431px) {
+  .mobileImg {
+    height: 16.5rem;
+  }
+}
+.mobile {
+  height: 16.5rem;
+}
+
+.drinks img {
+  cursor: pointer;
+}
+.softDrinksImg:hover {
+  position: relative;
+}
+.softDrinksImg:hover > img {
+  opacity: 0.5;
+}
+.softDrinksImg:hover::after {
+  content: "Soft Drinks";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-weight: 600;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.juicesImg:hover {
+  position: relative;
+}
+.juicesImg:hover > img {
+  opacity: 0.5;
+}
+.juicesImg:hover::after {
+  content: "Juices";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-weight: 600;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.juicesImg:hover {
+  position: relative;
+}
+.juicesImg:hover > img {
+  opacity: 0.5;
+}
+.juicesImg:hover::after {
+  content: "Juices";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-weight: 600;
+  opacity: 1;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.teasImg:hover {
+  position: relative;
+}
+.teasImg:hover > img {
+  opacity: 0.5;
+}
+.teasImg:hover::after {
+  content: "Teas";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-weight: 600;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.dairyDrinksImg:hover {
+  position: relative;
+}
+.dairyDrinksImg:hover > img {
+  opacity: 0.5;
+}
+.dairyDrinksImg:hover::after {
+  content: "Dairy Drinks";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.1rem;
+  font-weight: 600;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.waterImg:hover {
+  position: relative;
+}
+.waterImg:hover > img {
+  opacity: 0.5;
+}
+.waterImg:hover::after {
+  content: "Water";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-weight: 600;
+  opacity: 1;
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+/* mobile */
+@media screen and (max-width: 430.99px) {
+  .mobileBannerContent {
+    width: 10rem;
+  }
+  .mobileBannerTopContent {
+    font-size: 1.5rem;
+  }
+  .mobileBannerBotContent {
+    font-size: 1rem;
+  }
+  .coke {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 1399.99px) {
+  .coke {
+    font-size: 2.5rem;
+  }
+}
+/*xxl*/
+@media screen and (min-width: 1400px) {
+  .coke {
+    font-size: 2.5rem !important;
+  }
+}
+.coke {
+  font-family: serif;
+}
+.bannerContent {
+  animation: bannerAnimation 2s ease-in-out forwards;
+}
+@keyframes bannerAnimation {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.iframe {
+  animation: iframeAnimation 0.5s ease-in-out forwards;
+}
+@keyframes iframeAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

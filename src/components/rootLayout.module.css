@@ -1,0 +1,434 @@
+@media screen and (max-width: 430.99px) {
+  .logo {
+    width: 75%;
+    z-index: 5;
+    position: absolute;
+    top: 20%;
+    border: white solid;
+    border-radius: 50%;
+  }
+  .cocacola {
+    width: 38% !important;
+  }
+  .active {
+    width: 2.5rem;
+    text-decoration: none;
+    color: #e61d2b;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 0.7rem;
+  }
+  .notActive {
+    width: 2.5rem;
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 0.7rem;
+  }
+  .active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .notActive::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .active:hover::after {
+    width: 100%;
+  }
+  .notActive:hover::after {
+    width: 100%;
+  }
+  .numberOfItems {
+    position: absolute;
+    bottom: 0.8rem !important;
+    right: 1.2rem !important;
+    width: 0.7rem !important;
+    height: 0.7rem !important;
+    font-size: 0.55rem !important;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .logo {
+    width: 75%;
+    z-index: 5;
+    position: absolute;
+    top: 20%;
+    border: white solid;
+    border-radius: 50%;
+  }
+  .cocacola {
+    width: 30%;
+  }
+  .active {
+    text-decoration: none;
+    color: #e61d2b;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 0.7rem;
+  }
+  .notActive {
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 0.7rem;
+  }
+  .active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .notActive::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .active:hover::after {
+    width: 100%;
+  }
+  .notActive:hover::after {
+    width: 100%;
+  }
+  .numberOfItems {
+    position: absolute;
+    bottom: 0.8rem !important;
+    right: 1.2rem !important;
+    width: 0.7rem !important;
+    height: 0.7rem !important;
+    font-size: 0.55rem !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .logo {
+    width: 75%;
+    z-index: 5;
+    position: absolute;
+    top: 20%;
+    border: white solid;
+    border-radius: 50%;
+  }
+  .cocacola {
+    width: 30%;
+  }
+  .active {
+    text-decoration: none;
+    color: #e61d2b;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 0.6rem;
+  }
+  .notActive {
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 0.6rem;
+  }
+  .active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .notActive::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .active:hover::after {
+    width: 100%;
+  }
+  .notActive:hover::after {
+    width: 100%;
+  }
+  .numberOfItems {
+    position: absolute;
+    bottom: 0.7rem !important;
+    right: 1rem !important;
+    width: 0.7rem !important;
+    height: 0.7rem !important;
+    font-size: 0.55rem !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .logo {
+    width: 75%;
+    z-index: 5;
+    position: absolute;
+    top: 20%;
+    border: white solid;
+    border-radius: 50%;
+  }
+  .cocacola {
+    width: 40%;
+  }
+  .active {
+    text-decoration: none;
+    color: #e61d2b;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 0.9rem;
+  }
+  .notActive {
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 0.9rem;
+  }
+  .active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .notActive::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .active:hover::after {
+    width: 100%;
+  }
+  .notActive:hover::after {
+    width: 100%;
+  }
+  .numberOfItems {
+    right: 1.5rem !important;
+  }
+}
+/*lg*/
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .logo {
+    width: 65%;
+    z-index: 5;
+    position: absolute;
+    top: 5%;
+    border: white solid;
+    border-radius: 50%;
+  }
+  .cocacola {
+    width: 40%;
+  }
+  .active {
+    text-decoration: none;
+    color: #e61d2b;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+  .notActive {
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+  .active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .notActive::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .active:hover::after {
+    width: 100%;
+  }
+  .notActive:hover::after {
+    width: 100%;
+  }
+}
+/*xl*/
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .logo {
+    width: 65%;
+    z-index: 5;
+    position: absolute;
+    border: white solid;
+    border-radius: 50%;
+  }
+  .cocacola {
+    width: 40%;
+  }
+  .active {
+    text-decoration: none;
+    color: #e61d2b;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+  .notActive {
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+  .active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .notActive::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .active:hover::after {
+    width: 100%;
+  }
+  .notActive:hover::after {
+    width: 100%;
+  }
+}
+/*xxl*/
+@media screen and (min-width: 1400px) {
+  .logo {
+    width: 50%;
+    z-index: 5;
+    position: absolute;
+    border: white solid;
+    border-radius: 50%;
+  }
+  .cocacola {
+    width: 40%;
+  }
+  .active {
+    text-decoration: none;
+    color: #e61d2b;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+  .notActive {
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem;
+    border-bottom: solid transparent;
+    position: relative;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+  .active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .notActive::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e61d2b;
+    transition: width 0.3s ease;
+  }
+  .active:hover::after {
+    width: 100%;
+  }
+  .notActive:hover::after {
+    width: 100%;
+  }
+}
+.numberOfItems {
+  position: absolute;
+  bottom: 1rem;
+  right: 1.7rem;
+}
